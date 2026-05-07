@@ -1,0 +1,27 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "this is Namste React First Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/007av/Swegy-App.git"
+  },
+  "keywords": [
+    "react",
+    "Namste",
+    "React"
+  ],
+  "author": "Me, Avdhut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/007av/Swegy-App/issues"
+  },
+  "homepage": "https://github.com/007av/Swegy-App#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
