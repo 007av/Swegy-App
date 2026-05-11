@@ -52,7 +52,10 @@ const RestroCards = () => {
           src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/RX_THUMBNAIL/IMAGES/VENDOR/2025/2/7/6fe76e38-93ec-4b41-b91b-af5d7d29b6e7_1041221.jpg"
         />
       
-      <h2 className="Restorant-name">Meghna Foods</h2>
+      <h2 className="Restorant-name">Meghna Foods</h2><h3>Biryani,Chiken Biryani</h3>
+
+     
+
     </div>
   );
 };
@@ -65,6 +68,17 @@ const Body = () => {
         <button>Search</button>
       </div>
       <div className="res-container">
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
+        <RestroCards />
         <RestroCards />
       </div>
     </div>
