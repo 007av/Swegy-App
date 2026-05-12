@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import HederComponent from "./Components/HeaderComponent";
-import RestroCards from "./Components/RestroCards";
-import Body from "./Components/Body";
+import HederComponent from "./components/HeaderComponent";
+import Body from "./components/Body";
 
 const heading = <h1 id="heading">Namsete React 🚀</h1>;
 
