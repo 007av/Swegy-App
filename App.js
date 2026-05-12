@@ -46,7 +46,7 @@ const RestroCards = (props) => {
   
 const {restData} = props;
 
-const {cloudinaryImageId,cuisines,name,costForTwo,avgRating} = restData?.info;
+const {cloudinaryImageId,cuisines,name,costForTwo,avgRating} = restData?.card.card.info;
  
 
   return (
@@ -1421,7 +1421,7 @@ const Body = () => {
        {
         restoList.map((resto)=>{
           return(
-            <RestroCards key={resto.card.card.info.id} restData={resto.card.card}/>
+            <RestroCards key={resto.card.card.info.id} restData={resto}/>
           )
         })
        }
