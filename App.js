@@ -43,10 +43,11 @@ const HederComponent = () => {
 };
 
 const RestroCards = (props) => {
-  const { restData } = props;
+  
+const {restData} = props;
 
-  const { name, cloudinaryImageId, costForTwo, cuisines, avgRating } =
-    restData?.info;
+const {cloudinaryImageId,cuisines,name,costForTwo,avgRating} = restData?.info;
+ 
 
   return (
     <div className="RetroCards">
@@ -1417,15 +1418,13 @@ const Body = () => {
         <button>Search</button>
       </div>
       <div className="res-container">
-        {restoList.map((restaurant) => {
-           console.log(restaurant);
-          return (
-            <RestroCards
-              key={restaurant.card.card.info.id}
-              restData={restaurant.card.card}
-            />
-          );
-        })}
+       {
+        restoList.map((resto)=>{
+          return(
+            <RestroCards key={resto.card.card.info.id} restData={resto.card.card}/>
+          )
+        })
+       }
       </div>
     </div>
   );
