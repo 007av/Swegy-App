@@ -20,6 +20,16 @@ font-size: 20px;
 .Search{
     padding: 10px 20px;
 }
+.Top-rated{
+    margin-left: 15px;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+}
+.Top-rated:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
 .res-container{
     display: flex;
     flex-wrap: wrap;
